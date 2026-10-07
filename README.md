@@ -43,12 +43,12 @@ pytest
 curl -X POST http://127.0.0.1:8000/api/v1/jobs \
   -H 'Content-Type: application/json' \
   -d '{
-    "course_name": "Intro to APIs",
+    "course_name": "Python Data Science Workshop",
     "title": "Certificate of Completion",
     "issuer": "Acme Academy",
     "issued_on": "2026-10-01",
     "recipients": [
-      {"name": "Ada Lovelace", "email": "ada@example.com"},
+      {"name": "Nilarini Devaraj", "email": "nilarini@example.com"},
       {"name": "Alan Turing"},
       {"name": "", "email": "broken@example.com"}
     ]
